@@ -1,3 +1,5 @@
+package clases.clase1;
+
 public class Practica3 {
     public static void main(String[] args) {
         //Ejercicio #3: Hacer el siguiente esquema

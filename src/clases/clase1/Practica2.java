@@ -1,3 +1,5 @@
+package clases.clase1;
+
 public class Practica2 {
     public static void main(String[] args) {
         //Ejercicio #2: Portugal ha ganado N partidos. Si han ganado mas de 2 partidos imprimir "ganadores",

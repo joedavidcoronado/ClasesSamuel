@@ -1,0 +1,163 @@
+TAREA 1:
+
+1. Número positivo, negativo o cero
+
+Crear una variable int e indicar si el número es:
+
+- positivo
+- negativo
+- cero
+
+Ejemplo:
+
+int numero = -8;
+
+Salida:
+
+El número es negativo
+
+_______________________________________________________________________________________________
+
+2. Aprobar una materia
+
+Tener una nota (double) y mostrar si aprobó.
+
+Condición:
+
+- Aprueba con 51 o más.
+
+Ejemplo:
+
+double nota = 73.00;
+
+Salida:
+
+Aprobado
+
+_________________________________________________________________________________________________
+
+3. Verificar si una persona puede votar
+
+Usar edad (int).
+
+Reglas:
+
+- 18 o más → puede votar
+- menor → no puede votar
+
+Ejemplo:
+
+int edad = 16;
+
+Salida:
+
+No puede votar
+
+_________________________________________________________________________________________________
+
+4. Detectar el número mayor entre dos
+
+Usar:
+
+int a = 25;
+int b = 17;
+
+Mostrar cuál es mayor.
+
+Salida:
+
+25 es mayor
+
+_________________________________________________________________________________________________
+
+5. Descuento por compra
+
+Usar:
+
+- double compra = 620.00;
+
+Si compra más de 500:
+    mostrar precio con 10% descuento
+
+Si no:
+    mostrar precio normal.
+
+____________________________________________________________________________________________________
+
+6. Sistema de becas (4 niveles de decisión)
+
+Una universidad dará becas según estas reglas:
+
+Variables:
+
+double nota;
+boolean participacion;
+boolean bajosRecursos;
+
+Reglas:
+
+Si la nota es 90 o más:
+    Si participó en actividades:
+        Si es de bajos recursos:
+            Beca completa
+        Si no:
+            Beca del 75%
+    Si no participó:
+        Beca del 50%
+Si nota menor a 90:
+    Si nota ≥ 75:
+        Si bajos recursos:
+            Beca del 25%
+        Si no:
+            Sin beca
+    Menor a 75:
+        No cumple requisitos
+
+Ejemplo:
+
+    - nota = 94;
+    - participacion = true;
+    - bajosRecursos = true;
+
+Salida:
+
+    - Beca completa
+
+______________________________________________________________________________________________________
+
+7. Sistema de seguridad para abrir una bóveda (muchos if anidados)
+
+Variables:
+
+    boolean huella;
+    boolean rostro;
+    boolean codigo;
+    boolean horarioPermitido;
+
+Reglas:
+
+Si está en horario permitido:
+    Si huella correcta:
+        Si reconocimiento facial correcto:
+            Si código correcto:
+                Mostrar:
+                    - Boveda abierta
+            Si código incorrecto:
+                - Codigo incorrecto
+        Si rostro incorrecto:
+            - Rostro no reconocido
+    Si huella incorrecta:
+        - Huella incorrecta
+Si está fuera de horario:
+    - Acceso bloqueado
+
+Ejemplo:
+
+    huella = true;
+    rostro = true;
+    codigo = false;
+    horarioPermitido = true;
+
+Salida:
+
+Codigo incorrecto
